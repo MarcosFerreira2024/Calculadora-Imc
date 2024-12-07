@@ -1,7 +1,7 @@
 "use client"
 import React, { useContext, useEffect } from 'react'
 import { ContextIMC } from "./ContextCalculadora"
-import { CalculaIMC } from "./CalculaImc"
+import { CalculaIMC } from './CalculaIMC';
 
 function CalculadoraImc() {
     const {setPeso,altura,peso,setAltura,dataIMC,setDataIMC} = useContext(ContextIMC);
